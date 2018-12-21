@@ -28,6 +28,18 @@ public class LoginController {
 
 		return "index";
 	}
+	
+	/**
+	 * 测试不拦截的请求
+	 * @param request
+	 * @param modelMap
+	 * @return
+	 */
+	@RequestMapping("/main")
+	public String main(HttpServletRequest request, ModelMap modelMap) {
+
+		return "main";
+	}
 
 	@RequestMapping("/logout")
 	public String logout(HttpServletRequest request, HttpSession session) {

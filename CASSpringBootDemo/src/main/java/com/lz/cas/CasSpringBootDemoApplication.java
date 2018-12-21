@@ -86,7 +86,7 @@ public class CasSpringBootDemoApplication {
 		Map<String, String> initParameters = new HashMap<String, String>();
 		initParameters.put("casServerLoginUrl", CAS_SERVER_URL_PREFIX);
 		initParameters.put("serverName", SERVER_NAME);
-		initParameters.put("ignorePattern", ".*");
+		initParameters.put("ignorePattern", "/main");
 		initParameters.put("ignoreUrlPatternType", "com.lz.cas.auth.SimpleUrlPatternMatcherStrategy");
 
 		registration.setInitParameters(initParameters);
