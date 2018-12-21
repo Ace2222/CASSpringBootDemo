@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: CASSpringBootDemo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lzh
+Implementation-Vendor-Id: com.lz.cas
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://projects.spring.io/spring-boot/CASSpringBoo
+ tDemo/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
